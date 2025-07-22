@@ -265,7 +265,23 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q5 - IsPrime function
+            /*
+            bool IsPrime(int number)
+            {
+                if (number < 2) return false;
+                for (int i = 2; i <= Math.Sqrt(number); i++)
+                {
+                    if (number % i == 0) return false;
+                }
+                return true;
+            }
 
+            Console.WriteLine("Enter a number:");
+            int primeCheck = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Is prime? " + IsPrime(primeCheck));
+            */
+            #endregion
 
 
 
