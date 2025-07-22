@@ -12,25 +12,23 @@ namespace C44_G02_CS05
         static void Main(string[] args)
         {
 
-            #region 1. Write a program in C# Sharp to find the sum of all elements of the array.
+            #region Q1 - Sum of all elements of the array
             /*
-            Console.Write("Enter the number of elements: ");
-            int n1 = int.Parse(Console.ReadLine());
-            int[] arr1 = new int[n1];
-            int sum1 = 0;
+            Console.WriteLine("Enter array size:");
+            int size = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[size];
 
-            Console.WriteLine("Enter the elements:");
-            for (int i = 0; i < n1; i++)
-            {
-                Console.Write($"Element {i}: ");
-                arr1[i] = int.Parse(Console.ReadLine());
-                sum1 += arr1[i];
-            }
-            Console.WriteLine($"The sum of all elements is: {sum1}");
+            Console.WriteLine("Enter array elements:");
+            for (int i = 0; i < size; i++)
+                arr[i] = Convert.ToInt32(Console.ReadLine());
+
+            int sum = 0;
+            for (int i = 0; i < size; i++)
+                sum += arr[i];
+
+            Console.WriteLine("Sum of array elements: " + sum);
             */
             #endregion
-
-
 
 
         }
