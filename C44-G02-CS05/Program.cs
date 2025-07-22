@@ -283,7 +283,25 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q6 - MinMaxArray function using ref
+            /*
+            void MinMaxArray(int[] arr, ref int min, ref int max)
+            {
+                min = arr[0];
+                max = arr[0];
+                for (int i = 1; i < arr.Length; i++)
+                {
+                    if (arr[i] < min) min = arr[i];
+                    if (arr[i] > max) max = arr[i];
+                }
+            }
 
+            int[] numbers = { 5, 1, 9, 2, 8 };
+            int minVal = 0, maxVal = 0;
+            MinMaxArray(numbers, ref minVal, ref maxVal);
+            Console.WriteLine("Min: " + minVal + ", Max: " + maxVal);
+            */
+            #endregion
 
 
 
