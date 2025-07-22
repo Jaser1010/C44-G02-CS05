@@ -144,7 +144,30 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q8 - Copy one 2D array to another
+            /*
+            int[,] arr1 = new int[2, 2];
+            int[,] arr2 = new int[2, 2];
 
+            Console.WriteLine("Enter 4 elements:");
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    arr1[i, j] = Convert.ToInt32(Console.ReadLine());
+                    arr2[i, j] = arr1[i, j];
+                }
+            }
+
+            Console.WriteLine("Copied Array:");
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                    Console.Write(arr2[i, j] + " ");
+                Console.WriteLine();
+            }
+            */
+            #endregion
 
 
 
