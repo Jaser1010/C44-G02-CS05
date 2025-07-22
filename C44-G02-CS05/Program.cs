@@ -45,7 +45,33 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
+            #region Q3 - Count frequency of each element
+            /*
+            int[] arr = { 1, 2, 2, 3, 1, 4, 1 };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int count = 1;
+                bool visited = false;
+                for (int j = 0; j < i; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        visited = true;
+                        break;
+                    }
+                }
+                if (!visited)
+                {
+                    for (int k = i + 1; k < arr.Length; k++)
+                    {
+                        if (arr[i] == arr[k])
+                            count++;
+                    }
+                    Console.WriteLine(arr[i] + " appears " + count + " times");
+                }
+            }
+            */
+            #endregion
 
 
 
