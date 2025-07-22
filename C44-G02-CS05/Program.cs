@@ -179,7 +179,29 @@ namespace C44_G02_CS05
             #endregion
 
 
+            #region Q1 - Difference between passing value types by value and by reference
+            /*
+            void ModifyValue(ref int a)
+            {
+                a = 20;
+            }
 
+            int x = 10;
+            Console.WriteLine("Before: " + x);
+            ModifyValue(ref x);
+            Console.WriteLine("After (by ref): " + x);
+
+            void ModifyValueByCopy(int a)
+            {
+                a = 20;
+            }
+
+            int y = 10;
+            Console.WriteLine("Before: " + y);
+            ModifyValueByCopy(y);
+            Console.WriteLine("After (by value): " + y);
+            */
+            #endregion
 
 
         }
