@@ -73,7 +73,18 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
+            #region Q4 - Find max and min in an array
+            /*
+            int[] arr = { 5, 3, 9, 1, 7 };
+            int max = arr[0], min = arr[0];
+            for (int i = 1; i < arr.Length; i++)
+            {
+                if (arr[i] > max) max = arr[i];
+                if (arr[i] < min) min = arr[i];
+            }
+            Console.WriteLine("Max: " + max + ", Min: " + min);
+            */
+            #endregion
 
 
 
