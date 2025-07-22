@@ -226,7 +226,23 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q3 - Function with 4 parameters to return summation and subtraction
+            /*
+            int SumSubtract(int a, int b, int c, int d)
+            {
+                return (a + b) - (c + d);
+            }
 
+            Console.WriteLine("Enter 4 numbers:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
+            int d = Convert.ToInt32(Console.ReadLine());
+
+            int result = SumSubtract(a, b, c, d);
+            Console.WriteLine("Result: " + result);
+            */
+            #endregion
 
 
 
