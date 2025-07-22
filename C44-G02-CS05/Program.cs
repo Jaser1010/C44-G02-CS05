@@ -86,7 +86,25 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
+            #region Q5 - Find second largest element in array
+            /*
+            int[] arr = { 4, 1, 9, 3, 9, 6 };
+            int first = int.MinValue, second = int.MinValue;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > first)
+                {
+                    second = first;
+                    first = arr[i];
+                }
+                else if (arr[i] > second && arr[i] != first)
+                {
+                    second = arr[i];
+                }
+            }
+            Console.WriteLine("Second largest: " + second);
+            */
+            #endregion
 
 
 
