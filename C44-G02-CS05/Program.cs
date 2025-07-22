@@ -30,6 +30,29 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q2 - Merge two arrays of same size sorted in ascending order
+            /*
+            int[] arr1 = { 1, 3, 5 };
+            int[] arr2 = { 2, 4, 6 };
+            int[] merged = new int[arr1.Length + arr2.Length];
+
+            arr1.CopyTo(merged, 0);
+            arr2.CopyTo(merged, arr1.Length);
+
+            Array.Sort(merged);
+
+            Console.WriteLine("Merged Sorted Array: " + string.Join(" ", merged));
+            */
+            #endregion
+
+
+
+
+
+
+
+
+
 
         }
     }
