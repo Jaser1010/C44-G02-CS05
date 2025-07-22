@@ -178,7 +178,6 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
             #region Q1 - Difference between passing value types by value and by reference
             /*
             void ModifyValue(ref int a)
@@ -202,6 +201,39 @@ namespace C44_G02_CS05
             Console.WriteLine("After (by value): " + y);
             */
             #endregion
+
+            #region Q2 - Difference between passing reference types by value and by reference
+            /*
+            void ModifyReference(MyClass obj)
+            {
+                obj.Value = 100;
+            }
+
+            void ReassignReference(ref MyClass obj)
+            {
+                obj = new MyClass();
+                obj.Value = 200;
+            }
+
+            MyClass myObj = new MyClass();
+            myObj.Value = 10;
+
+            ModifyReference(myObj);
+            Console.WriteLine("After ModifyReference: " + myObj.Value);
+
+            ReassignReference(ref myObj);
+            Console.WriteLine("After ReassignReference: " + myObj.Value);
+            */
+            #endregion
+
+
+
+
+
+
+
+
+
 
 
         }
