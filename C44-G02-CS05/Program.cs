@@ -134,7 +134,15 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
+            #region Q7 - Reverse words in a sentence
+            /*
+            Console.WriteLine("Enter a sentence:");
+            string sentence = Console.ReadLine();
+            string[] words = sentence.Split(' ');
+            Array.Reverse(words);
+            Console.WriteLine(string.Join(" ", words));
+            */
+            #endregion
 
 
 
