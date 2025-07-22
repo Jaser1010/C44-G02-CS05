@@ -169,7 +169,14 @@ namespace C44_G02_CS05
             */
             #endregion
 
-
+            #region Q9 - Print 1D array in reverse order
+            /*
+            int[] arr = { 10, 20, 30, 40, 50 };
+            Console.WriteLine("Array in reverse:");
+            for (int i = arr.Length - 1; i >= 0; i--)
+                Console.Write(arr[i] + " ");
+            */
+            #endregion
 
 
 
