@@ -303,6 +303,28 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q7 - Iterative factorial
+            /*
+            int Factorial(int n)
+            {
+                int result = 1;
+                for (int i = 2; i <= n; i++)
+                    result *= i;
+                return result;
+            }
+
+            Console.WriteLine("Enter a number:");
+            int factNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Factorial: " + Factorial(factNum));
+            */
+            #endregion
+
+
+
+
+
+
+
 
 
         }
