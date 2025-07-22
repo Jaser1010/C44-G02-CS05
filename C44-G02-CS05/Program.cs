@@ -244,7 +244,26 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q4 - Sum of digits
+            /*
+            int SumOfDigits(int number)
+            {
+                int sum = 0;
+                while (number != 0)
+                {
+                    sum += number % 10;
+                    number /= 10;
+                }
+                return sum;
+            }
 
+            Console.WriteLine("Enter a number:");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            int digitSum = SumOfDigits(num);
+            Console.WriteLine("The sum of the digits of the number " + num + " is: " + digitSum);
+            */
+            #endregion
 
 
 
