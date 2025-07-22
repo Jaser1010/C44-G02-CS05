@@ -319,7 +319,29 @@ namespace C44_G02_CS05
             */
             #endregion
 
+            #region Q8 - ChangeChar function
+            /*
+            string ChangeChar(string input, int position, char newChar)
+            {
+                char[] chars = input.ToCharArray();
+                if (position >= 0 && position < chars.Length)
+                {
+                    chars[position] = newChar;
+                }
+                return new string(chars);
+            }
 
+            Console.WriteLine("Enter a string:");
+            string str = Console.ReadLine();
+            Console.WriteLine("Enter position (0-based):");
+            int pos = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter new character:");
+            char ch = Console.ReadLine()[0];
+
+            string updated = ChangeChar(str, pos, ch);
+            Console.WriteLine("Updated string: " + updated);
+            */
+            #endregion
 
 
 
